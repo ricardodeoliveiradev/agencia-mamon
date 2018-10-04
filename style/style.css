@@ -1,0 +1,270 @@
+.container {
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+.abf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.mamon {
+    font-size: 24px;
+    color: #202020;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.menu-item {
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #202020;
+}
+
+.menu-button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 4.5px 14px 4.5px;
+    border-radius: 5px;
+    margin-left: 40px;
+    background-color: #5528FF; 
+}
+
+header { 
+    margin: 35px 0;
+}
+
+.bold {
+    font-size: 58px;
+    font-weight: bold;
+    color: #202020;
+}
+
+.text {
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 400; 
+    color: #4F4F4F;
+}
+
+.button {  
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 13px 50px;
+    color: #FFFFFF;
+    background-color: #5528FF;
+    border-radius: 10px; 
+}
+
+/* Services */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.service-description {
+    flex-grow: 1;
+}
+
+.service-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #000000;
+}
+
+.service-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #B2B2B2; 
+}
+
+.service {
+    display: flex;
+    align-items: baseline;
+    flex: 1;
+}
+
+.icon-container {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+}
+
+.icon {
+    text-align: center;
+    width: 180px;
+    height: 60px;
+}
+/* /Services */
+
+.margin {
+    margin-right: 67px;
+    margin-bottom: 128px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;;
+}
+
+.brands-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 328px;
+}
+
+.contributors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.partner {
+    border-radius: 100px;
+    margin-right: 35px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #202020;
+}
+
+.office {
+    font-size: 14px;
+    font-weight: 400;
+    color: #B2B2B2; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+/*
+MEDIA QUERIES
+*/
+@media screen and (max-width: 950px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .menu {
+        margin-top: 30px;
+    }
+
+    .service-row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .icon-container {
+        margin-bottom: 20px;
+    }
+
+    .brands {
+        flex-direction: column;
+    }
+
+    .brand-margin {
+        margin-bottom: 60px;
+    }
+
+    .contributors {
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .menu-button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bold {
+        font-size: 40px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .service-title {
+        font-size: 22px;
+    }
+    
+    .logo-footer {
+        margin-right: 50px;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+}
